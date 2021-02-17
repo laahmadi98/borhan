@@ -10,7 +10,7 @@ const Contact = (props) => {
             <div className="box-flex mt-4">
                 <Title title="تماس با ما " />
                 <VerticalSpace />
-                <h3 className="services-title" >با ما در  <span style={{ color: "#fff" }}>ارتباط</span> باشید</h3>
+                <h3 className="services-title" >با ما در  <span style={{ color: "#fff" }}>ارتباط</span> باشید </h3>
             </div>
             <VerticalSpace space="5rem" />
             <div id="contact-content">
