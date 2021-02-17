@@ -14,10 +14,10 @@ import "../../styles/home.css";
 class Home extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = { }
     }
     render() {
-        return (
+        return ( 
             <div>
                 <section>
                     <NavbarMenu />
