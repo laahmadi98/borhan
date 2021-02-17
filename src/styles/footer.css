@@ -48,6 +48,9 @@
 .footer-copyright span{
     margin: 5px 0;
 }
+.footer-rules span:hover{
+    color: #fff;
+}
 @media only screen and (max-width: 600px) {
     .footer-social{
         width: 100%;

@@ -7,7 +7,7 @@ import Header from '../../Components/Header/Header';
 import NavbarMenu from '../../Components/Navbar/Navbar';
 import SalesManagement from "../../Components/SalesManagement/SalesManagement";
 import Services from '../../Components/Services/Services';
-import Spancer from '../../Components/Spancer.jsx/Spancer';
+import Spancer from '../../Components/Spancer/Spancer';
 import "../../styles/home.css";
 
 
