@@ -34,7 +34,7 @@ class Footer extends Component {
                         <div className="footer-rules">
                             <Link><span>قوانین و مقررات</span></Link>
                             <HorizentalSpace />
-                            <Link><span>تماس با ما  </span></Link>
+                            <Link><span>تماس با ما   </span></Link>
                         </div>
                         <div className="footer-copyright">
                             <span>کلیه حقوق مادی و معنوی این سایت متعلق به شرکت <Link><span style={{color: "#6c204c"}}>شرکت کارگزاری برهان سهند </span></Link> <span>می باشد.</span></span>
