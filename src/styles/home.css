@@ -1,0 +1,138 @@
+#archive{
+      background: url("../assest/images/bg_blog_service.png");
+      padding: 1rem 0;
+}
+.archive-box{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+
+}
+.archive-box-content{
+    color: #9b9b9b;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #eee;
+    text-align: justify;
+    margin:15px 0 10px 0;
+    height: 150px;
+}
+.archive-box-footer{
+    margin: 5px 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.archive-box-footer span:first-child{
+    color: #616161;
+}
+.archive-box-footer-left{
+    display: flex;
+    align-items: center;
+}
+#services{
+    background: url("../assest/images/service_bg.png");
+    padding: 1rem 0;
+}
+.services-title{
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+}
+.services-title span{
+     color: #686867;
+     padding-bottom: 1rem;
+     border-bottom: 3px solid #fff;
+}
+
+.service-box{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 1rem 0;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 15px;
+   
+}
+
+.service-box-content{
+    text-align: justify;
+    margin:15px 10px;
+    line-height: 180%;
+}
+
+#contact{
+    background: url("../assest/images/bg_contact.png") repeat-x;
+    background-color: #ebebeb;
+   
+}
+
+#contact-content{
+    background-color: #fff;
+    padding: 2rem 0;
+    border-radius: 5px;
+}
+
+#contact-box-inner{
+    padding: 4rem 0 1rem 0;
+    color: #6c204c;
+    font-size: 50px;
+}
+
+.contact-box-information{
+    color: #9b9b9b;
+}
+
+#spancer{
+    background-color: #ebebeb;
+    padding: 1rem 0;
+}
+.spancer-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px 5px;
+}
+.spancer-box-right{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.spancer-box-left{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    background-color: #fff;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .archive-box-content{
+        height: 180px;
+    }
+    .spancer-box{
+        flex-direction: column;
+    }
+    .spancer-box-right{
+        width: 100%;
+        flex-direction: column;
+    }
+    .spancer-box-right-inner{
+        flex-direction: row;
+    }
+    .spancer-box-left{
+        width: 60%;
+        margin: 1rem 0;
+    }
+}
+
+

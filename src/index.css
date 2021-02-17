@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face{
+    font-family: iransans;
+    font-weight: normal;
+    src: url("./assest/fonts/iransan.woff") format('woff');
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+  a{
+      text-decoration: none;
+      color: #fff;
+  }
+  a:hover{
+      text-decoration: none;
+      color: #fff;
+  }
+  .box-flex{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+  }
+body{
+    direction: rtl;
+    font-family: iransans;
+    font-size: 14px;
+}
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
 }

@@ -1,0 +1,65 @@
+#header{
+    background-image: url("../assest/images/slider.png");
+    color: #fff;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    text-align: center;
+}
+.header-box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+}
+.header-box-anchor{
+    display: flex;
+}
+#header-management{
+    background: url("../assest/images/edalat-bg.png") top;
+    color: #fff;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-management div{
+    display: flex;
+    align-items: center;
+}
+.title-box{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    #header{
+        flex-direction: column;
+    }
+    .header-box-anchor{
+        flex-direction: column;
+        
+    }
+    .header-box{
+        width: 100%;
+        padding: 2rem 0;
+        height: auto;
+    }
+    .title-box span{
+        font-size: 16px !important;
+    }
+    #header-management{
+        background-image: none;
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+    #header-management div:last-child{
+        flex-direction: column;
+    }
+    
+}
