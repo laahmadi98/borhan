@@ -65,6 +65,9 @@
     text-align: justify;
     margin:15px 10px;
     line-height: 180%;
+    color: #9b9b9b;
+    height: 100px;
+    font-size: 14px;
 }
 
 #contact{
@@ -87,6 +90,9 @@
 
 .contact-box-information{
     color: #9b9b9b;
+    width: 237px;
+    text-align: center;
+    height: 60px;
 }
 
 #spancer{

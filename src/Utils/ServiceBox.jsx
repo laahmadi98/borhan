@@ -9,7 +9,7 @@ const ServiceBox = (props) => {
             <img src={process.env.PUBLIC_URL + `/statics/images/${props.img}`} alt="report" />
             <Title title= {props.title} color="#6c204c" />
             <div className="service-box-content">
-                تحليل بنيادي تحليل بنيادي مبتني بر اين فرض است كه اوراق بهادار (و بازار به عنوان كل) داراي ارزش ذات...
+               {props.subTitle}
             </div>
 
         </div>

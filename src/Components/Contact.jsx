@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import ContactBox from '../Utils/ContactBox';
 import Title from '../Utils/Title'
 import VerticalSpace from '../Utils/VerticalSpace';
+import { contact } from "../Constants/arrayStatic";
 
 const Contact = (props) => {
     return (
@@ -15,15 +16,21 @@ const Contact = (props) => {
             <VerticalSpace space="5rem" />
             <div id="contact-content">
                 <div className="row">
-                    <div className="col-12 col-md-4">
-                        <ContactBox title="شماره حساب" subTtiel="اطلاعات کامل تر" inner="credit-card" />
+
+                    {
+                        contact.map(item => (
+                            <div className="col-12 col-md-4">
+                                <ContactBox title={item.title} subTitle={item.subTitle} inner={item.inner} content={item.content} />
+                            </div>
+
+                        ))
+                    }
+                    {/* <div className="col-12 col-md-4">
+                        <ContactBox title=" " subTtiel="  " inner="phone" />
                     </div>
                     <div className="col-12 col-md-4">
-                        <ContactBox title="شماره تلفن ها " subTtiel=" شعب و نمایندگی ها " inner="phone" />
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <ContactBox title="آدرس پستی ما " subTtiel="منتظرتان هستیم  " inner="map-marker" />
-                    </div>
+                        <ContactBox title="آدرس پستی ما " subTtiel="  " />
+                    </div> */}
                 </div>
             </div>
 

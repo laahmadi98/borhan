@@ -1,5 +1,5 @@
 const about = [
-    { name: "حساب های بانکی", target: "/test" },
+    { name: "حساب های بانکی", target: "/BankAccounts" },
     { name: " نرخ کارمزد معاملات ", target: "/" },
     { name: "شعب و نمایندگی ها  ", target: "/" },
     { name: " همکاری با ما ", target: "/" },

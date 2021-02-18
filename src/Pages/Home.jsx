@@ -1,14 +1,14 @@
 
 import React, { Component } from 'react'
-import Archive from '../../Components/Archive/Archive';
-import Contact from '../../Components/Contact/Contact';
-import Footer from '../../Components/Footer/Footer';
-import Header from '../../Components/Header/Header';
-import NavbarMenu from '../../Components/Navbar/Navbar';
-import SalesManagement from "../../Components/SalesManagement/SalesManagement";
-import Services from '../../Components/Services/Services';
-import Spancer from '../../Components/Spancer/Spancer';
-import "../../styles/home.css";
+import Archive from '../Components/Archive';
+import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
+import Header from '../Components/Header';
+import NavbarMenu from '../Components/Navbar/Navbar';
+import SalesManagement from "../Components/SalesManagement";
+import Services from '../Components/Services';
+import Spancer from '../Components/Spancer';
+import "../styles/home.css";
 
 
 class Home extends Component {
@@ -22,7 +22,7 @@ class Home extends Component {
                 <section>
                     <NavbarMenu />
                 </section>
-                <section>
+                <section id="header-top">
                     <Header />
                 </section>
                 <section style={{ backgroundColor: "#ebebeb" }}>

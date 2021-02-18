@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../../styles/header.css";
+import "../styles/header.css";
 import Anchor from '../Utils/Anchor';
 import HorizentalSpace from '../Utils/HorizentalSpace';
 import Title from '../Utils/Title';

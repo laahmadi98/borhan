@@ -76,7 +76,7 @@ visibility: visible;
     color: #c3c3c3 ;
    
   }
-  .nav-submenu-item a:hover{
+  .nav-submenu-item a:hover ,  .nav-submenu-item a:active{
     background: #6c204c;
     color: #fff ;
   }
