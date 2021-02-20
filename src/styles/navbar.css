@@ -76,8 +76,11 @@ visibility: visible;
     color: #c3c3c3 ;
    
   }
-  .nav-submenu-item a:hover ,  .nav-submenu-item a:active{
-    background: #6c204c;
+  .nav-submenu-item a:hover ,  
+  .nav-submenu-item a:active,  
+  .nav-submenu-item a:focus,
+  .nav-submenu-item a:visited{
+    background: #6c204c !important;
     color: #fff ;
   }
   .nav-menu-virtual a{
@@ -86,6 +89,7 @@ visibility: visible;
   #nav-response{
     display: none;
   }
+  
 
 
   @media only screen and (max-width: 992px) {

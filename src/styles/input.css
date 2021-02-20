@@ -1,0 +1,140 @@
+/* INPUT  */
+.input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .input-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-title {
+    color: #333;
+    font-size: 1rem;
+    position: relative;
+    margin: 0 1rem 0.5rem 0;
+  }
+  .input-required-sign {
+    color: red;
+    position: absolute;
+  }
+  .input-field {
+    outline: none;
+    padding-right: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.75rem;
+    height: 46px;
+  }
+  .input-textarea-field {
+    outline: none;
+    padding-right: 0.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.75rem;
+    height: 112px;
+    resize: none;
+    padding: 1rem;
+  }
+  .input-hint-text {
+    font-size: 0.875rem;
+    color: #646464;
+    height: max-content;
+    padding: 0.25rem 1rem 0;
+  }
+  
+  /* input string  */
+  .input-add-string-box {
+    outline: none;
+    padding-right: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .input-add-string {
+    border-radius: 1rem;
+    background-color: #fbfbfb;
+    padding: 0.25rem 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.25rem;
+  }
+  .input-add-clear {
+    margin-right: 0.5rem;
+    width: 0.6rem;
+    cursor: pointer;
+  }
+  
+  .input-add-value {
+  }
+  .input-add-string-field {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .search-result-box,
+  .typing-search-result-box {
+    padding: 0.5rem;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 0.5rem 0.5rem;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    right: 0;
+    max-height: 120px;
+    overflow-y: scroll;
+  }
+  .typing-search-result-box {
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-result-item {
+    font-size: 0.9rem;
+    padding: 0.25rem;
+    color: #646464;
+  }
+  .input-add-string-title {
+    font-family: "iranSansB";
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .add-member-btn {
+    display: flex;
+    align-items: center;
+  }
+  .add-member-img {
+    width: 1.5rem;
+  }
+  .add-member-text {
+    font-family: "iranSansB";
+  }
+  .input-error-text {
+    font-size: 0.875rem;
+    color: #f00;
+    height: max-content;
+    min-height: 25px;
+    padding: 0.25rem 1rem 0;
+    display: block;
+  }
+  .border-error {
+    border-color: #f00;
+  }
+  .input-title-editable {
+    position: relative;
+  }
+  .input-editable {
+    width: 100%;
+    border: none;
+    margin-bottom: 0.5rem;
+    outline: none;
+    padding-right: 1rem;
+  }

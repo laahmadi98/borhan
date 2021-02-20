@@ -3,10 +3,6 @@ import "../../styles/navbar.css";
 import { Link } from 'react-router-dom';
 import Submenu from './Submenu';
 import { sendListArrayToNavbar } from "../../Constants/NavbarArray";
-import {
-    Collapse,
-    NavbarToggler
-} from "reactstrap";
 
 const NavbarMenu = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +22,7 @@ const NavbarMenu = (props) => {
                         </li>
                         <li className="nav-menu-item" >
                             <a>درباره ما&nbsp;<i class="fa fa-angle-down"></i></a>
-                            <Submenu about={sendListArrayToNavbar(0)} />
+                            <Submenu about={sendListArrayToNavbar(0)}/>
                         </li>
                         <li className="nav-menu-item"> 
                             <a>خدمات &nbsp;<i class="fa fa-angle-down"></i></a>
