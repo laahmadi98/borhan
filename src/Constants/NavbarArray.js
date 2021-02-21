@@ -3,7 +3,7 @@ const about = [
     { name: " نرخ کارمزد معاملات ", target: "/TransactionFeeCosts" },
     { name: "شعب و نمایندگی ها  ", target: "/BranchesAndAgencies" },
     { name: " همکاری با ما ", target: "/CollaborationWithUs" },
-    { name: "سوالات متداول  ", target: "/" }
+    { name: "سوالات متداول  ", target: "/FrequentlyAskedQuestions" }
 ]
 
 const services = [
